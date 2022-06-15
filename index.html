@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Condensed:wght@300&family=Staatliches&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Estonia&family=IM+Fell+English+SC&family=Pacifico&family=Special+Elite&display=swap" rel="stylesheet">  <link rel="stylesheet" href="main.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Open+Sans:wght@300;700&family=Rufina&family=Secular+One&display=swap" rel="stylesheet">  <!-- using-FontAwesome --->
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  
+  <section>
+    <!-- navigation ---------------->
+    <nav id="navbar">
+      <!-- menu -->
+      <ul>
+      <li> <a class = "nav-btn" href="#contact">contact</a> </li>
+      <li> <a class = "nav-btn" href="#others">others</a> </li>
+      <li> <a class = "nav-btn" href="#projects">projects</a> </li>
+      
+      <li> <a class = "nav-btn" href="#about">about</a> </li>
+      </ul>
+    <!-- bars ----------------->
+    <div class="toggle"> </div>
+    </nav>
+  <!-- text ---------------------->
+  <div class="text-container" id="home">
+   <!--img src="img/about.png" height="500px"> -->
+    <p>Hi, I'm <br> </p>
+    <p>Rachel Phan</p>
+    <p>welcome to my world</p>
+  </div>
+
+
+  </section>
+
+  <section id="about">
+  <!-- about section ---------------->
+  <div class="about-container">
+    <!--img ------------------------>
+    <img src="img/aboutpage.png">
+    <!--img ------------------------->
+    <div class="about-text">
+      <div class="about-title">
+        <p>About Me</p>
+        <hr class="about-hr">
+      </div>
+      <p> Wanderer on Earth, Conqueror on my own universe<br> <br></p>
+      <p> Heyyy! I'm Hanh aka Rachel. </p>
+      <p> I'm a senior at Ohio Wesleyan University majoring in Computer Science and Data Analytics and graduating in 12/2022.</p>
+      <p> I'm a big fan of soccer especially Manchester United team. A typical weekend is me watching EPL games and trying to analyze each team's tactics.</p>
+      <p> I love travelling and wandering around new cities and countries. After 5+ years of travelling, I've learnt to see things from different perspectives and to enjoy my life to the fullest.</p>
+      <p> I also spend my free time learning new languages. Now I speak Vietnamese, English, Mandarin, and I'm also learning Japanese ^^</p>
+
+    </div>
+  </div>
+  </section>
+
+  <section id="projects">
+    <div class="project-container">
+      <div class="project-container-title">
+      MY PROJECTS
+      </div>
+      <div class="project-detail">
+        <div class="projects-title"> Uvie </div>
+        <div class="project-text">
+          <p>A social media app for Movie lovers to talk about their favorite movies. 
+            <br>Users can currently create an account, make a post, delete their posts and upvote/downvote posts.</p>
+        </div>
+        <div class="slideshow-container">
+          <div class="uvie-slide">
+            <img src="img/uvie-slide-1.png" class = "project-image" >
+          </div>
+        
+          <div class="uvie-slide">
+            <img src="img/uvie-slide-2.png" class = "project-image" >
+          </div>
+        
+          <div class="uvie-slide">
+            <img src="img/uvie-slide-3.png" class = "project-image" >
+          </div>
+        
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <script src="js/myScript.js"></script>
+      </div>
+      <div class="project-detail">
+        <div class="projects-title"> <br>Fake News Detection </div>
+        <div class="project-text">
+          <p>A model to detect fake news built from Random Forest Classification and TfidfVectorizer.</p>
+        </div>
+        <div class="slideshow-container">
+          <div class="FND-slide">
+            <img src="img/FND2.png" class = "project-image" >
+          </div>
+        
+          <div class="FND-slide">
+            <img src="img/FND3.png" class = "project-image" >
+          </div>
+          <div class="FND-slide">
+            <img src="img/FND4.png" class = "project-image" >
+          </div>
+          <div class="FND-slide">
+            <img src="img/FND5.png" class = "project-image" >
+          </div>
+          <div class="FND-slide">
+            <img src="img/FND6.png" class = "project-image" >
+          </div>
+        
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot2" onclick="currentSlide2(1)"></span>
+          <span class="dot2" onclick="currentSlide2(2)"></span>
+          <span class="dot2" onclick="currentSlide2(3)"></span>
+          <span class="dot2" onclick="currentSlide2(4)"></span>
+          <span class="dot2" onclick="currentSlide2(5)"></span>
+        </div>
+
+        <script src="js/myScript2.js"></script>
+      </div>
+      <div class="project-detail">
+        <div class="projects-title"> <br>Scotland Yard </div>
+        <div class="project-text">
+          <p>A board game with multiple players that is similar to hide-and-seek.</p>
+        </div>
+        <img src="img/Scotland-Yard.png" class = "project-image" >
+      </div>
+      <div class="project-detail">
+        <div class="projects-title"> <br>AFU Vietnam </div>
+        <div class="project-text">
+          <p>An E-commerce website that allows users to create accounts and make purchases.</p>
+        </div>
+        <div class="slideshow-container">
+          <div class="AFU-slide">
+            <img src="img/AFU2.png" class = "project-image" >
+          </div>
+        
+          <div class="AFU-slide">
+            <img src="img/AFU1.png" class = "project-image" >
+          </div>
+        
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot3" onclick="currentSlide3(1)"></span>
+          <span class="dot3" onclick="currentSlide3(2)"></span>
+        </div>
+
+        <script src="js/myScript3.js"></script>
+      </div>
+      
+    </div>
+</section>
+
+<!-- Contact------------->
+<section id="contact">
+  <div class="contact-title">
+    <p>CONTACT</p>
+  </div> 
+  
+  <div class="contact-container">
+    <div > Feel free to reach out to me anytime via LinkedIn or shoot me an email. <br> <br> </div>
+    
+    <a href="https://drive.google.com/file/d/1fzWxSDiKLRCHIMd4-osbXAH5PuKaqfXD/view?usp=sharing" class="contact-button" data-role="button" data-inline="true">RESUME</a>
+    <a href="mailto:rachelphan.vn@gmail.com" class="contact-button" data-role="button" data-inline="true" data-theme="b">EMAIL ME</a>
+
+    
+  </div>
+  </div>
+
+</section>
+<!-- footer -------------------->
+  <footer>
+    <!-- social ------------------->
+    <div class="social-icons">
+      <a href="https://github.com/rachelphan1508"><i class="fab fa-github"> </i></a>
+      <a href="https://www.linkedin.com/in/hanh-phan/"><i class="fab fa-linkedin-in"> </i></a>
+    </div>
+    <!-- copyright ------------->
+    <p class="copyright"> Designed and Built by Rachel Phan </p>
+  </footer>
+  <!-- attached social bar ----->
+  <div class="a-social-b">
+    <a href="https://github.com/rachelphan1508"><i class="fab fa-github"> </i></a>
+    <a href="https://www.linkedin.com/in/hanh-phan/"><i class="fab fa-linkedin-in"> </i></a>
+  </div>
+
+
+</body>
+</html>
